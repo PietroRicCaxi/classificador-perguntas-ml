@@ -8,6 +8,10 @@ onde trabalho.
 > pasta `dados/` tem um **exemplo inventado**, no mesmo formato, para o notebook rodar de ponta a ponta. Os
 > números deste README são os dos dados reais; rodando com o exemplo, você vai ver outros.
 
+![A tela de atendimento com o classificador](imagens/tela_em_uso.png)
+
+*A tela de atendimento do sistema da empresa, com perguntas **inventadas** para não expor compradores. A etiqueta e a confiança de cada uma são as do modelo de verdade; a primeira já foi confirmada pelo atendente, e a de 60% vem com "?" para pedir um olho humano.*
+
 ## O problema
 
 As lojas da empresa no Mercado Livre recebem milhares de perguntas, e metade delas é a mesma: *"serve no meu
@@ -162,7 +166,7 @@ python treinar.py dados/rotulos_exemplo.csv
 | `dados/perguntas_exemplo.csv` | perguntas **inventadas** sem etiqueta, para o Passo 15 |
 | `sql/confirmacoes.sql` | a tabela das confirmações (PostgreSQL) e a consulta de acerto em produção |
 | `gerar_exemplo.py` | o script que inventou os dados de exemplo |
-| `imagens/` | os gráficos deste README, com os números reais agregados |
+| `imagens/` | os gráficos deste README (números reais agregados) e a tela em uso (perguntas inventadas) |
 
 ## Ferramentas
 
