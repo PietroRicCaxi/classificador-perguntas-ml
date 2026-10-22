@@ -1,0 +1,13 @@
+# Saídas geradas ao rodar o notebook ou o treinar.py
+modelo_perguntas.json
+conferencia_perguntas.json
+perguntas_classificadas*.csv
+
+# Dados reais nunca entram aqui: só os de exemplo, em dados/
+*.xlsx
+rotulos_*.csv
+!dados/rotulos_exemplo.csv
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
